@@ -321,7 +321,7 @@
     
   }
   .hero::before {
-    background: linear-gradient(180deg, rgba(255, 232, 232, 0) 0%, white 70%, white 100%);
+    background: linear-gradient(180deg, rgba(255, 232, 232, 0) 0%, var(--bg) 70%, var(--bg) 100%);
     opacity: 1;
   }
   .hero-desc{
