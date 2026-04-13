@@ -1,0 +1,106 @@
+/* SERVIÇOS */
+#servicos {
+  background: var(--white);
+}
+
+.serv-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 3rem;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.serv-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.25rem;
+}
+
+.serv-card {
+  background: #fff;
+  border: 1.5px solid var(--border);
+  border-radius: 22px;
+  padding: 2rem;
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.3s, box-shadow 0.3s, border-color 0.3s;
+  cursor: default;
+}
+
+.serv-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 20px 50px rgba(43, 91, 255, 0.1);
+  border-color: #C4D1FF;
+}
+
+.serv-card.blue {
+  background: var(--blue);
+  border-color: var(--blue);
+}
+
+.serv-card.lime {
+  background: var(--lime);
+  border-color: var(--lime);
+}
+
+.serv-num {
+  font-family: 'Syne', sans-serif;
+  font-weight: 800;
+  font-size: 0.75rem;
+  color: var(--muted);
+  letter-spacing: 0.1em;
+  margin-bottom: 1.2rem;
+}
+
+.serv-card.blue .serv-num {
+  color: rgba(255, 255, 255, 0.45);
+}
+
+.serv-card.lime .serv-num {
+  color: rgba(10, 15, 46, 0.4);
+}
+
+.serv-icon {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  display: block;
+}
+
+.serv-title {
+  font-family: 'Syne', sans-serif;
+  font-weight: 800;
+  font-size: 1.15rem;
+  color: var(--text);
+  margin-bottom: 0.7rem;
+  line-height: 1.2;
+}
+
+.serv-card.blue .serv-title {
+  color: #fff;
+}
+
+.serv-card.lime .serv-title {
+  color: var(--text);
+}
+
+.serv-desc {
+  font-size: 0.85rem;
+  color: var(--muted);
+  line-height: 1.65;
+}
+
+.serv-card.blue .serv-desc {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.serv-card.lime .serv-desc {
+  color: rgba(10, 15, 46, 0.6);
+}
+
+@media (max-width: 900px) {
+  .serv-grid {
+    grid-template-columns: 1fr;
+  }
+}

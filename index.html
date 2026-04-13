@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Seu nome — Personal Trainer</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=Inter:wght@300;400;500;600&display=swap"
+    rel="stylesheet">
+
+  <!-- CSS Global -->
+  <link rel="stylesheet" href="./css/global/variables.css">
+  <link rel="stylesheet" href="./css/global/reset.css">
+  <link rel="stylesheet" href="./css/global/base.css">
+
+  <!-- CSS Sections -->
+
+  <link rel="stylesheet" href="./css/sections/nav.css">
+  <link rel="stylesheet" href="./css/sections/hero.css">
+  <link rel="stylesheet" href="./css/sections/sobre.css">
+  <link rel="stylesheet" href="./css/sections/servicos.css">
+  <link rel="stylesheet" href="./css/sections/resultados.css">
+  <link rel="stylesheet" href="./css/sections/planos.css">
+  <link rel="stylesheet" href="./css/sections/contato.css">
+  <link rel="stylesheet" href="./css/sections/footer.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js" defer></script>
+
+
+</head>
+
+<body>
+
+  <!-- NAV -->
+  <nav data-aos="zoom-out-down">
+    <div class="nav-logo">Logo</div>
+    <ul class="nav-links nav-links-desktop">
+      <li><a href="#sobre">Sobre</a></li>
+      <li><a href="#servicos">Serviços</a></li>
+      <li><a href="#resultados">Resultados</a></li>
+      <li><a href="#planos">Planos</a></li>
+    </ul>
+    <a href="#contato" class="nav-cta nav-cta-desktop">Agendar →</a>
+    <button class="nav-toggle" type="button" aria-label="Abrir menu" aria-expanded="false"
+      aria-controls="nav-mobile-menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+
+  </nav>
+  <div class="nav-mobile-menu" id="nav-mobile-menu">
+    <ul class="nav-mobile-links">
+      <li><a href="#sobre">Sobre</a></li>
+      <li><a href="#servicos">Serviços</a></li>
+      <li><a href="#resultados">Resultados</a></li>
+      <li><a href="#planos">Planos</a></li>
+      <li><a href="#contato">Contato</a></li>
+    </ul>
+    <a href="#contato" class="nav-cta nav-cta-mobile">Agendar →</a>
+  </div>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-left" data-aos="zoom-in-right" data-aos-delay="700" data-aos-anchor="#example-anchor" data-aos-duration="800">
+      <div class="hero-chip" data-aos="fade-right"><i></i> Personal Trainer</div>
+      <h1 >
+        Treinos que<br>
+        <span class="line-accent" >transformam</span><br>
+        de <span class="tag-lime" >verdade.</span>
+      </h1>
+      <p class="hero-desc">Metodologia personalizada, acompanhamento próximo e resultados que você vê. Comece agora com
+        uma avaliação 100% gratuita.</p>
+      <div class="hero-btns">
+        <a href="#contato" class="btn-blue">Avaliação Grátis →</a>
+        <a href="#resultados" class="btn-outline">Ver resultados</a>
+      </div>
+      <div class="hero-kpis">
+        <div><span class="kpi-num">00<em>+</em></span><span class="kpi-label">Alunos ativos</span></div>
+        <div><span class="kpi-num">00<em>+</em></span><span class="kpi-label">Anos de experiência</span></div>
+        <div><span class="kpi-num">97<em>%</em></span><span class="kpi-label">Anos de Satisfação</span></div>
+      </div>
+    </div>
+
+
+  </section>
+
+  <!-- SOBRE -->
+  <section id="sobre">
+    <div class="sobre-visual reveal">
+      <div class="sobre-card-main">
+        <div class="sobre-avatar">
+          <img src="assets/images/nosso-personal.png" alt="nosso-personal">
+        </div>
+        <div class="sobre-name">Seu nome</div>
+        <div class="sobre-role">Personal Trainer · Cidade - CD</div>
+        <div class="sobre-tags">
+          <span class="sobre-tag">CREF Certificado</span>
+          <span class="sobre-tag">Emagrecimento</span>
+          <span class="sobre-tag">Nutrição Esportiva</span>
+        </div>
+      </div>
+      <div class="mini-float mf-a">
+        <div class="mf-ico">🏅</div>
+        <div class="mf-val">Top 3%</div>
+        <div class="mf-lbl">Personal</div>
+      </div>
+      <div class="mini-float mf-b">
+        <div class="mf-ico">📊</div>
+        <div class="mf-val">00+</div>
+        <div class="mf-lbl">Alunos</div>
+      </div>
+    </div>
+
+    <div class="sobre-content reveal">
+      <span class="sec-tag">Quem sou eu</span>
+      <h2 class="sec-title">Ciência aplicada<br>ao seu objetivo</h2>
+      <p class="sec-sub">Sou Seu nome, Personal Trainer com 8 anos de experiência e especialização em fisiologia do
+        exercício. Minha abordagem une dados, ciência e motivação real — sem promessas vazias.</p>
+      <div class="sobre-list">
+        <div class="sobre-item">
+          <div class="si-icon">🎓</div>
+          <div class="si-text"><strong>Graduado em Educação Física — USP</strong><span>Especialização em Performance e
+              Saúde</span></div>
+        </div>
+        <div class="sobre-item">
+          <div class="si-icon">🏅</div>
+          <div class="si-text"><strong>Certificação Internacional NSCA</strong><span>Strength & Conditioning
+              Specialist</span></div>
+        </div>
+        <div class="sobre-item">
+          <div class="si-icon">🧬</div>
+          <div class="si-text"><strong>Avaliação Funcional e Postural</strong><span>Abordagem individualizada baseada em
+              dados</span></div>
+        </div>
+        <div class="sobre-item">
+          <div class="si-icon">📱</div>
+          <div class="si-text"><strong>App de Acompanhamento Próprio</strong><span>Suporte diário para alunos
+              presenciais e online</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVIÇOS -->
+  <section id="servicos">
+    <div class="serv-header reveal">
+      <div>
+        <span class="sec-tag">O que ofereço</span>
+        <h2 class="sec-title">Modalidades<br>de treino</h2>
+      </div>
+      <p class="sec-sub" style="max-width:300px">Cada programa é desenhado para os seus objetivos específicos.</p>
+    </div>
+    <div class="serv-grid">
+      <div class="serv-card blue reveal" data-aos="flip-left" >
+        <div class="serv-num">01</div>
+        <span class="serv-icon">💪</span>
+        <h3 class="serv-title">Musculação & Hipertrofia</h3>
+        <p class="serv-desc">Periodização avançada para ganho de força e massa muscular com base em ciência aplicada.
+        </p>
+      </div>
+      <div class="serv-card lime reveal" data-aos="flip-left" data-aos-delay="200" >
+        <div class="serv-num">02</div>
+        <span class="serv-icon">🔥</span>
+        <h3 class="serv-title">Emagrecimento Acelerado</h3>
+        <p class="serv-desc">Protocolo HIIT + funcional com orientação nutricional para queima de gordura eficiente e
+          real.</p>
+      </div>
+      <div class="serv-card reveal" data-aos="flip-left" data-aos-delay="300" >
+        <div class="serv-num">03</div>
+        <span class="serv-icon">🧘</span>
+        <h3 class="serv-title">Reabilitação & Postura</h3>
+        <p class="serv-desc">Correção postural, reabilitação de lesões e mobilidade funcional com foco em qualidade de
+          vida.</p>
+      </div>
+      <div class="serv-card reveal" data-aos="flip-left" data-aos-delay="400" >
+        <div class="serv-num">04</div>
+        <span class="serv-icon">🥊</span>
+        <h3 class="serv-title">Treinamento Funcional</h3>
+        <p class="serv-desc">Movimentos globais que melhoram performance no dia a dia, coordenação e resistência
+          cardiovascular.</p>
+      </div>
+      <div class="serv-card reveal" data-aos="flip-left" data-aos-delay="500" >
+        <div class="serv-num">05</div>
+        <span class="serv-icon">📱</span>
+        <h3 class="serv-title">Assessoria Online</h3>
+        <p class="serv-desc">Planilhas + app com ajustes semanais, suporte diário e comunidade exclusiva de alunos.</p>
+      </div>
+      <div class="serv-card reveal" data-aos="flip-left" data-aos-delay="600" >
+        <div class="serv-num">06</div>
+        <span class="serv-icon">🏆</span>
+        <h3 class="serv-title">Preparação Esportiva</h3>
+        <p class="serv-desc">Para atletas amadores e competidores. Periodização e preparação para competições e provas.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- RESULTADOS -->
+  <section id="resultados">
+    <div class="res-header reveal">
+      <span class="sec-tag">Histórias reais</span>
+      <h2 class="sec-title">Transformações que<br>inspiram</h2>
+      <p class="sec-sub">Resultados reais de alunos reais. Sem photoshop, sem atalhos.</p>
+    </div>
+    <div class="res-grid">
+      <div class="res-card reveal" data-aos="zoom-in" data-aos-duration="800">
+        <div class="res-top">
+          <span class="res-badge">− 14 kg em 5 meses</span>
+          <img src="assets/images/antes-depois1.png" alt="antes-depois">
+        </div>
+        <div class="res-body">
+          <div class="res-stars">★★★★★</div>
+          <div class="res-name">Ana Beatriz S.</div>
+          <div class="res-meta">Emagrecimento · 5 meses</div>
+          <p class="res-quote">"Nunca imaginei que conseguiria. O Rafael transformou minha relação com o exercício e
+            minha autoestima."</p>
+        </div>
+      </div>
+      <div class="res-card reveal" data-aos="zoom-in" data-aos-duration="800" data-aos-delay="200">
+        <div class="res-top">
+          <span class="res-badge">+ 8 kg massa magra</span>
+          <img src="assets/images/antes-depois2.png" alt="antes-depois">
+        </div>
+        <div class="res-body">
+          <div class="res-stars">★★★★★</div>
+          <div class="res-name">Carlos M.</div>
+          <div class="res-meta">Hipertrofia · 8 meses</div>
+          <p class="res-quote">"Cheguei magro e sem força. Hoje me sinto outro. A metodologia funciona de verdade, com
+            ciência real."</p>
+        </div>
+      </div>
+      <div class="res-card reveal" data-aos="zoom-in" data-aos-duration="800" data-aos-delay="400">
+        <div class="res-top">
+          <span class="res-badge">Eliminou dor lombar</span>
+          <img src="assets/images/fundo-hero (3).png" alt="antes-depois">
+        </div>
+        <div class="res-body">
+          <div class="res-stars">★★★★★</div>
+          <div class="res-name">Fernanda L.</div>
+          <div class="res-meta">Reabilitação · 3 meses</div>
+          <p class="res-quote">"Tinha dor crônica há 2 anos. Com o trabalho postural e funcional, finalmente consigo
+            viver sem dor."</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PLANOS -->
+  <section id="planos">
+    <div class="plan-header reveal">
+      <span class="sec-tag">Investimento</span>
+      <h2 class="sec-title">Planos para cada<br>objetivo</h2>
+      <p class="sec-sub">Transparência total. Sem taxas ocultas. Cancele quando quiser.</p>
+    </div>
+    <div class="plan-grid">
+      <div class="plan-card reveal" data-aos="zoom-in-down" data-aos-duration="800">
+        <div class="plan-name">Básico</div>
+        <div class="plan-price"><sup>R$</sup>00</div>
+        <div class="plan-per">por mês · 2× por semana</div>
+        <hr class="plan-div">
+        <ul class="plan-feats">
+          <li>Avaliação física inicial</li>
+          <li>Planilha personalizada</li>
+          <li>2 sessões presenciais/semana</li>
+          <li>Suporte via WhatsApp</li>
+          <li>Revisão mensal</li>
+        </ul>
+        <a href="https://wa.me/5511999999999" target="_blank"><button class="btn-plan">Começar agora</button></a>
+
+      </div>
+      <div class="plan-card featured reveal" data-aos="zoom-in-down" data-aos-duration="800" data-aos-delay="200">
+        <div class="plan-pop">⭐ Mais escolhido</div>
+        <div class="plan-name">Premium</div>
+        <div class="plan-price"><sup>R$</sup>00</div>
+        <div class="plan-per">por mês · 4× por semana</div>
+        <hr class="plan-div">
+        <ul class="plan-feats">
+          <li>Avaliação completa + bioimpedância</li>
+          <li>4 sessões presenciais/semana</li>
+          <li>Orientação nutricional</li>
+          <li>Acesso ao app exclusivo</li>
+          <li>Revisão quinzenal</li>
+          <li>Suporte prioritário 7 dias</li>
+        </ul>
+        <a href="https://wa.me/5511999999999" target="_blank"><button class="btn-plan">Começar agora</button></a>
+
+      </div>
+      <div class="plan-card reveal" data-aos="zoom-in-down" data-aos-duration="800" data-aos-delay="400">
+        <div class="plan-name">Elite</div>
+        <div class="plan-price"><sup>R$</sup>00</div>
+        <div class="plan-per">por mês · ilimitado</div>
+        <hr class="plan-div">
+        <ul class="plan-feats">
+          <li>Treinos ilimitados</li>
+          <li>Nutrição esportiva completa</li>
+          <li>Acompanhamento diário</li>
+          <li>Análise de composição corporal</li>
+          <li>Grupo VIP exclusivo</li>
+          <li>Sessão de recuperação semanal</li>
+        </ul>
+        <a href="https://wa.me/5511999999999" target="_blank"><button class="btn-plan">Começar agora</button></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTATO -->
+  <section id="contato">
+    <div class="contact-info reveal">
+      <span class="sec-tag">Fale comigo</span>
+      <h2 class="sec-title">Pronto para<br>começar?</h2>
+      <p class="sec-sub">Agende sua avaliação gratuita e vamos montar o plano ideal para você. Sem compromisso.</p>
+      <div class="ch-list">
+        <a href="https://wa.me/5511999999999" class="ch-item">
+          <div class="ch-ico g">💬</div>
+          <div class="ch-text"><strong>WhatsApp</strong><span>(11) 9 9999-9999 — Resposta rápida</span></div>
+        </a>
+        <a href="https://instagram.com" class="ch-item">
+          <div class="ch-ico p">📸</div>
+          <div class="ch-text"><strong>Instagram</strong><span>@rafaelcosta.pt — Dicas diárias</span></div>
+        </a>
+        <a href="mailto:rafael@trainer.com" class="ch-item">
+          <div class="ch-ico b">✉️</div>
+          <div class="ch-text"><strong>E-mail</strong><span>rafael@trainer.com</span></div>
+        </a>
+      </div>
+    </div>
+    <div class="form-box reveal">
+      <h3>Agendar avaliação grátis</h3>
+      <div class="f-row">
+        <div class="f-grp"><label>Nome</label><input type="text" placeholder="Seu nome completo"></div>
+        <div class="f-grp"><label>WhatsApp</label><input type="tel" placeholder="(11) 9 0000-0000"></div>
+      </div>
+      <div class="f-grp">
+        <label>Objetivo principal</label>
+        <select>
+          <option value="">Selecione seu objetivo...</option>
+          <option>Emagrecer</option>
+          <option>Ganhar massa muscular</option>
+          <option>Melhorar condicionamento</option>
+          <option>Reabilitação / Dor</option>
+          <option>Performance esportiva</option>
+        </select>
+      </div>
+      <div class="f-grp"><label>Mensagem (opcional)</label><textarea
+          placeholder="Conte sobre sua rotina e histórico..."></textarea></div>
+      <button class="btn-send">Enviar e agendar minha avaliação →</button>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-main">
+
+      <!-- Marca -->
+      <div class="footer-brand">
+        <div class="f-logo"><span>·</span> Personal Trainer</div>
+        <p class="footer-desc">Treinos personalizados, resultados reais e acompanhamento próximo em cada etapa da sua evolução.</p>
+      </div>
+
+      <!-- Navegação -->
+      <div class="footer-col">
+        <h4 class="footer-col-title">Navegação</h4>
+        <ul class="footer-links">
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#servicos">Serviços</a></li>
+          <li><a href="#resultados">Resultados</a></li>
+          <li><a href="#planos">Planos</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </div>
+
+      <!-- Contato -->
+      <div class="footer-col">
+        <h4 class="footer-col-title">Contato</h4>
+        <ul class="footer-links">
+          <li><a href="https://wa.me/5511999999999" target="_blank" rel="noopener noreferrer">📱 (11) 9 9999-9999</a></li>
+          <li><a href="https://instagram.com" target="_blank" rel="noopener noreferrer">📸 @rafaelcosta.pt</a></li>
+          <li><a href="mailto:rafael@trainer.com">✉️ rafael@trainer.com</a></li>
+        </ul>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <p>© 2026 Seu nome · CREF 012345-G/SP · Todos os direitos reservados</p>
+      <a href="https://wa.me/5511999999999" class="footer-wa" target="_blank" rel="noopener noreferrer">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="18" height="18" aria-hidden="true">
+          <path d="M12.001 2C6.478 2 2 6.478 2 12c0 1.85.504 3.58 1.38 5.065L2 22l5.065-1.38A9.955 9.955 0 0 0 12 22c5.523 0 10-4.477 10-10S17.523 2 12.001 2zm0 18a8 8 0 0 1-4.09-1.126l-.292-.174-3.006.819.82-2.98-.19-.305A8 8 0 1 1 20 12a8.009 8.009 0 0 1-7.999 8zm4.394-5.953c-.24-.12-1.42-.7-1.64-.78-.22-.08-.38-.12-.54.12-.16.24-.62.78-.76.94-.14.16-.28.18-.52.06-.24-.12-1.012-.373-1.928-1.188-.712-.634-1.193-1.418-1.333-1.657-.14-.24-.015-.37.105-.49.108-.107.24-.28.36-.42.12-.14.16-.24.24-.4.08-.16.04-.3-.02-.42-.06-.12-.54-1.3-.74-1.78-.195-.468-.393-.404-.54-.412l-.46-.008c-.16 0-.42.06-.64.3s-.84.82-.84 2c0 1.18.86 2.32.98 2.48.12.16 1.693 2.585 4.102 3.624.574.248 1.021.396 1.37.507.575.183 1.099.157 1.513.095.461-.069 1.42-.58 1.62-1.14.2-.56.2-1.04.14-1.14-.06-.1-.22-.16-.46-.28z"/>
+        </svg>
+        Falar no WhatsApp
+      </a>
+    </div>
+  </footer>
+
+  <!-- Scroll To Top -->
+  <button class="scroll-top" id="scrollTop" aria-label="Voltar ao topo">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" width="20" height="20" aria-hidden="true">
+      <polyline points="18 15 12 9 6 15"/>
+    </svg>
+  </button>
+
+  <!-- WhatsApp Fixo -->
+  <a
+    href="https://wa.me/5511999999999"
+    class="whatsapp-fab"
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="Falar pelo WhatsApp"
+  >
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="28" height="28" aria-hidden="true">
+      <path d="M12.001 2C6.478 2 2 6.478 2 12c0 1.85.504 3.58 1.38 5.065L2 22l5.065-1.38A9.955 9.955 0 0 0 12 22c5.523 0 10-4.477 10-10S17.523 2 12.001 2zm0 18a8 8 0 0 1-4.09-1.126l-.292-.174-3.006.819.82-2.98-.19-.305A8 8 0 1 1 20 12a8.009 8.009 0 0 1-7.999 8zm4.394-5.953c-.24-.12-1.42-.7-1.64-.78-.22-.08-.38-.12-.54.12-.16.24-.62.78-.76.94-.14.16-.28.18-.52.06-.24-.12-1.012-.373-1.928-1.188-.712-.634-1.193-1.418-1.333-1.657-.14-.24-.015-.37.105-.49.108-.107.24-.28.36-.42.12-.14.16-.24.24-.4.08-.16.04-.3-.02-.42-.06-.12-.54-1.3-.74-1.78-.195-.468-.393-.404-.54-.412l-.46-.008c-.16 0-.42.06-.64.3s-.84.82-.84 2c0 1.18.86 2.32.98 2.48.12.16 1.693 2.585 4.102 3.624.574.248 1.021.396 1.37.507.575.183 1.099.157 1.513.095.461-.069 1.42-.58 1.62-1.14.2-.56.2-1.04.14-1.14-.06-.1-.22-.16-.46-.28z"/>
+    </svg>
+  </a>
+
+  <!-- Scripts -->
+  <script src="./js/main.js" defer></script>
+</body>
+
+</html>

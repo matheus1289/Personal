@@ -1,0 +1,13 @@
+:root {
+  --white:      #FFFFFF;
+  --bg:         #F4F7FF;
+  --bg2:        #EEF3FF;
+  --blue:       #2B5BFF;
+  --blue-dark:  #1A3FCC;
+  --blue-light: #E8EDFF;
+  --lime:       #C6F135;
+  --lime-dark:  #A8D01A;
+  --text:       #0A0F2E;
+  --muted:      #6B7199;
+  --border:     #DDE3F5;
+}
